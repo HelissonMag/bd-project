@@ -55,39 +55,13 @@
             top: 30px;
             position: absolute;
         }
-        .m-t-l-links-a{
-            top: 50%;
-            left: 50%;
-            margin-right: -50%;
-            margin-bottom: -50%;
-            transform: translate(-50%,-50%);
-            position: absolute;
-        }
-        .m-t-l-links-b{
-            top: 60%;
-            left: 50%;
-            margin-right: -50%;
-            margin-bottom: -50%;
-            transform: translate(-50%,-50%);
-            position: absolute;
-        }
-
-        .flex-center {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .position-ref {
+        .m-t-l-links{
+            top: 40%;
+            left: 0%;
+            width: 100%;
+            text-align: center;
             position: relative;
         }
-        .m-t{
-            margin-top: 20%;
-        }
-        .m-t-l-b{
-            margin-top: 1%;
-        }
-
 
     </style>
 </head>
@@ -95,16 +69,16 @@
     <div class="title m-t-l-title content">
             Planetas
     </div>
-    <div class="flex-center position-ref m-t">
-        <div class="linksa content">
+    <div class="m-t-l-links">
+        <p class="linksa">
             <a href="{{ route('planet.create') }}">Create</a>
             <a href="{{ route('planet.read') }}">Read</a>
             <a href="{{ route('planet.update') }}">Update</a>
             <a href="{{ route('planet.delete') }}">Delete</a>
-        </div>
-    </div>
-    <div class="m-t-l-b content linksb">
-        <a href="{{ route('welcome')}}">Back</a>
+        </p>
+        <p class="linksb">
+            <a href="{{ route('welcome')}}">Back</a>
+        </p>
     </div>
 </body>
 </html>
