@@ -71,13 +71,13 @@
     </div>
     <div class="m-t-l-links">
         <p class="linksa">
-            <a href="{{ route('planet.create') }}">Create</a>
-            <a href="{{ route('planet.read') }}">Read</a>
-            <a href="{{ route('planet.update') }}">Update</a>
-            <a href="{{ route('planet.delete') }}">Delete</a>
+            <a href="{{ route('planet.create') }}">Cadastrar</a>
+            <a href="{{ route('planet.read') }}">Buscar</a>
+            <a href="{{ route('planet.update') }}">Modificar</a>
+            <a href="{{ route('planet.delete') }}">Apagar</a>
         </p>
         <p class="linksb">
-            <a href="{{ route('welcome')}}">Back</a>
+            <a href="{{ route('welcome')}}">Voltar</a>
         </p>
     </div>
 </body>

@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 
-    <title>Planet deleteResponse</title>
+    <title>Apagar Planeta</title>
 
     <style>
         html, body {
@@ -52,28 +52,30 @@
             position: absolute;
         }
         
-        .margin-text{
-            font-size: 20px;
-            margin-top: 17%;
-        }
-
-        .margin-links{
-            margin-top: 1%;
+        
+        .m-t-l-links{
+            top: 40%;
+            left: 0%;
+            width: 100%;
+            text-align: center;
+            position: relative;
         }
 
     </style>
 </head>
 <body>
     <div class="title margin-title content">
-        DeleteResponse
+        Apagar Planeta
     </div>
-    <div class="margin-text content">
-        Planeta 
-        <output class="bold">{{ $request->name }}</output>
-        foi Deletado.
-    </div>
-    <div class="links margin-links content">
-        <a href="{{ url('/planet') }}">Back</a>
+    <div class="m-t-l-links">
+        <p>
+            Planeta 
+            <output class="bold">{{ $request->name }}</output>
+            foi Deletado.
+        </p>
+        <p class="links">
+            <a href="{{ url('/planet') }}">Voltar</a>
+        </p>
     </div>
 </body>
 </html>

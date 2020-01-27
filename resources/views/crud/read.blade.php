@@ -9,7 +9,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-    <title>Planet Read</title>
+    <title>Buscar Planeta</title>
 
     <style>
         html,
@@ -69,7 +69,7 @@
 
 <body>
     <div class="title m-t-l-title content">
-        Read
+        Buscar Planeta
     </div>
     <div class="m-t-l-text-fields ">
         <form action="{{route('planet.readresponse')}}" method="get">
@@ -82,7 +82,7 @@
             </p>
             <p class="links content">
                 <input type="submit" name="send" value="Buscar">
-                <a href="{{route('planet')}}" name="back">Back</a>
+                <a href="{{route('planet')}}" name="back">Voltar</a>
             </p>
         </form>
     </div>

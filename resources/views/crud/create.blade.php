@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 
-    <title>Planet Create</title>
+    <title>Cadastrar Planeta</title>
 
     <style>
         html, body {
@@ -66,7 +66,7 @@
 </head>
 <body>
     <div class="title m-t-l-title content">
-        Create
+        Cadastrar Planeta
     </div>
     <div class="m-t-l-text-fields ">
         <form action="{{route('planet.createresponse')}}" method="post">
@@ -84,8 +84,8 @@
                 <input type="text" name="galaxia" placeholder="informe o nome da galáxia" required="required">
             </p>
             <p class="links content">
-                <input type="submit" name="send" value="Send">
-                <a href="{{ route('planet')}}" name="back">Back</a>
+                <input type="submit" name="send" value="Cadastrar">
+                <a href="{{ route('planet')}}" name="back">Voltar</a>
             </p>
         </form>
     </div>

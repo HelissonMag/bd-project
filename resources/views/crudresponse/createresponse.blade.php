@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 
-    <title>CreateResponse</title>
+    <title>Cadastrar Planeta</title>
 
     <style>
         html, body {
@@ -52,30 +52,32 @@
             position: absolute;
         }
 
-        .margin-text{
-           margin-top: 17%;
-        }
-
-
-        .margin-links-b{
-            margin-top: 1%;
+        
+        .m-t-l-links{
+            top: 40%;
+            left: 0%;
+            width: 100%;
+            text-align: center;
+            position: relative;
         }
 
     </style>
 </head>
 <body>
     <div class="title margin-title content">
-        CreateResponse 
+        Cadastrar Planeta
     </div>
-    <p class="margin-text content">
-        Planeta
-        <output class="bold">{{ $request->name }}</output>
-        da Galaxia
-        <output class="bold">{{ $request->galaxia }}</output>
-        foi criado.
-    </p>
-    <p class="links margin-links-b content">
-        <a href="{{ url('/planet') }}">Back</a>
-    </p>
+    <div class="m-t-l-links">
+        <p>
+            Planeta
+            <output class="bold">{{ $request->name }}</output>
+            da Galaxia
+            <output class="bold">{{ $request->galaxia }}</output>
+            foi criado.
+        </p>
+        <p class="links">
+            <a href="{{ url('/planet') }}">Voltar</a>
+        </p>
+    </div>
 </body>
 </html>

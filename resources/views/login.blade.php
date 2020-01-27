@@ -83,7 +83,7 @@
             <input type="password" name="galaxia" placeholder="informe a senha" required="required">
         </p>
         <p class="links content">
-            <a href="{{ route('welcome')}}">Send</a>
+            <a href="{{ route('welcome')}}">Login</a>
         </p>
     </div>
 </body>

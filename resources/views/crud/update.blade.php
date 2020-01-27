@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 
-    <title>Planet update</title>
+    <title>Modificar Planeta</title>
 
     <style>
         html, body {
@@ -66,7 +66,7 @@
 </head>
 <body>
     <div class="title m-t-l-title content">
-        Update
+        Modificar Planeta
     </div>
     <div class="m-t-l-text-fields ">
         <form action="{{route('planet.updateresponse')}}" method="post">
@@ -90,8 +90,8 @@
                 <input type="text" name="newGalaxia" placeholder="informe o nome da galáxia" required="required">
             </p>
             <p class="links content">
-                <input type="submit" name="send" value="Send">
-                <a href="{{ route('planet')}}" name="back">Back</a>
+                <input type="submit" name="send" value="Modificar">
+                <a href="{{ route('planet')}}" name="back">Voltar</a>
             </p>
         </form>
     </div>

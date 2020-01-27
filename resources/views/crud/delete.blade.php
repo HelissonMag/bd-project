@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 
-    <title>Planet Delete</title>
+    <title>Apagar Planeta</title>
 
     <style>
         html, body {
@@ -67,7 +67,7 @@
 </head>
 <body>
 <div class="title m-t-l-title content">
-    Delete
+    Apagar Planeta
 </div>
 <div class="m-t-l-text-fields ">
     <form action="{{route('planet.deleteresponse')}}" method="post">
@@ -79,8 +79,8 @@
             <input type="text" name="name" placeholder="informe o Planeta" required="required">
         </p>
         <p class="links content">
-            <input type="submit" name="send" value="Deletar">
-            <a href="{{ route('planet')}}" name="back">Back</a>
+            <input type="submit" name="send" value="Apagar">
+            <a href="{{ route('planet')}}" name="back">Voltar</a>
         </p>
     </form>
 </div>
