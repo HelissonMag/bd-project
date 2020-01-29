@@ -72,17 +72,17 @@
         Modificar Planeta
     </div>
     <div class="m-t-l-links">
-        <div>
+        <p>
             Planeta
             <output class="bold">{{ $request->name}}</output>
             att para
             <output class="bold">{{ $request->newName }}</output>
             e galaxia 
             <output class="bold">{{ $request->newGalaxia }}</output>
-        </div>
-        <div class="links">
+        </p>
+        <p class="links">
             <a href="{{ url('/planet') }}">Voltar</a>
-        </div>
+        </p>
     </div>
 </body>
 </html>
