@@ -52,6 +52,7 @@
         
         .margin-title {
             top: 30px;
+            margin-top: 2%;
         }
 
         .m-t-l-links{
