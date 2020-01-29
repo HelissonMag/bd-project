@@ -44,9 +44,8 @@
         }
 
         .m-t-l-title {
-            left: 30px;
             top: 30px;
-            position: absolute;
+            margin-top: 2%;
         }
 
         .m-t-l-text-fields{

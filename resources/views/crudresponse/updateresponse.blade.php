@@ -16,7 +16,6 @@
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
-            height: 100vh;
             margin: 0;
         }
 
@@ -52,9 +51,7 @@
         }
         
         .margin-title {
-            left: 30px;
             top: 30px;
-            position: absolute;
         }
 
         .m-t-l-links{
@@ -62,7 +59,7 @@
             left: 0%;
             width: 100%;
             text-align: center;
-            position: relative;
+            position: absolute;
         }
 
     </style>

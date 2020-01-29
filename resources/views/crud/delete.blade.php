@@ -16,7 +16,6 @@
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
-            height: 100vh;
             margin: 0;
         }
 
@@ -44,9 +43,8 @@
         }
 
         .m-t-l-title {
-            left: 30px;
             top: 30px;
-            position: absolute;
+            margin-top: 2%;
         }
 
         .m-t-l-text-fields{
