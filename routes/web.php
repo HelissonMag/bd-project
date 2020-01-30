@@ -36,4 +36,5 @@ Route::post('/planet/create/createresponse','CRUDPlanetController\CPlanetControl
 Route::get('/planet/read/readresponse','CRUDPlanetController\RPlanetController@readresponse')->name('planet.readresponse');
 Route::post('/planet/update/updateresponse','CRUDPlanetController\UPlanetController@updateresponse')->name('planet.updateresponse');
 Route::post('/planet/delete/deleteresponse','CRUDPlanetController\DPlanetController@deleteresponse')->name('planet.deleteresponse');
+Route::post('/logado', 'Auth\LoginController@loginresponse')->name('loginresponse');
 

@@ -71,7 +71,6 @@
     </div>
     <div class="m-t-l-text-fields ">
         <form action="{{route('planet.readresponse')}}" method="get">
-            @csrf
             <p class="text">
                 Nome do planeta
             </p>

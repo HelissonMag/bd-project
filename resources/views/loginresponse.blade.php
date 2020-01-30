@@ -4,11 +4,12 @@
 <html>
 <head>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
 
-    <title>Modificar Planeta</title>
+    <title>Login</title>
 
     <style>
         html, body {
@@ -17,27 +18,21 @@
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             margin: 0;
-        }
+            }
 
         .content {
             text-align: center;
-        }
-
-        .bold{
-            font-weight: bold;
         }
 
         .title {
             font-size: 60px;
             color: #000000;
         }
-
-        .margin-text{
-            font-size: 20px;
-            margin-top: 17%;
+        .bold{
+            font-weight: bold;
         }
 
-        .links > a{
+        .links > a, input{
             color: #000000;
             background-color: #ffffff;
             border:1px solid #000000;
@@ -49,12 +44,13 @@
             padding:3px 10px;
             text-decoration: none;
         }
-        
-        .margin-title {
+
+        .m-t-l-title {
             top: 30px;
             margin-top: 2%;
         }
 
+        
         .m-t-l-links{
             top: 40%;
             left: 0%;
@@ -62,25 +58,27 @@
             text-align: center;
             position: absolute;
         }
+        
+
+        .text{
+            color: #000000;
+            font-size: 15px;
+        }
 
     </style>
 </head>
 <body>
-    <div class="title margin-title content">
-        Modificar Planeta
+    <div class="title m-t-l-title content">
+        Login
     </div>
     <div class="m-t-l-links">
-        <p>
-            Planeta
-            <output class="bold">{{ $request->name}}</output>
-            atualizado para
-            <output class="bold">{{ $request->newName }}</output>
-            e galaxia 
-            <output class="bold">{{ $request->newGalaxia }}</output>
-            .
+        <p class="text">
+            Usuário: 
+            <output class="bold">{{$request->login}}</output>
+            fez login.
         </p>
-        <p class="links">
-            <a href="{{ url('/planet') }}">Voltar</a>
+        <p class="links content">
+            <a href="{{ route('welcome')}}">Próximo</a>
         </p>
     </div>
 </body>

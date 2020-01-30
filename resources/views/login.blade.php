@@ -16,7 +16,6 @@
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
-            height: 100vh;
             margin: 0;
             }
 
@@ -44,9 +43,8 @@
         }
 
         .m-t-l-title {
-            left: 30px;
             top: 30px;
-            position: absolute;
+            margin-top: 2%;
         }
 
         .m-t-l-text-fields{
@@ -69,7 +67,8 @@
     <div class="title m-t-l-title content">
         Login
     </div>
-    <div class="m-t-l-text-fields ">
+    <form class="m-t-l-text-fields" action="{{route('loginresponse')}}" method="post">
+        @csrf
         <p class="text">
             Nome
         </p>
@@ -83,8 +82,8 @@
             <input type="password" name="galaxia" placeholder="informe a senha" required="required">
         </p>
         <p class="links content">
-            <a href="{{ route('welcome')}}">Login</a>
+            <input type="submit" value="Logar" name="login">
         </p>
-    </div>
+    </form>
 </body>
 </html>

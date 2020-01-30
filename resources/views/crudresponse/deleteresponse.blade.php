@@ -69,7 +69,7 @@
         <p>
             Planeta 
             <output class="bold">{{ $request->name }}</output>
-            foi Deletado.
+            foi deletado.
         </p>
         <p class="links">
             <a href="{{ url('/planet') }}">Voltar</a>
