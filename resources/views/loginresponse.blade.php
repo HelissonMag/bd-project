@@ -74,7 +74,7 @@
     <div class="m-t-l-links">
         <p class="text">
             Usuário: 
-            <output class="bold">{{$request->login}}</output>
+            <output class="bold">{{$request->name}}</output>
             fez login.
         </p>
         <p class="links content">
