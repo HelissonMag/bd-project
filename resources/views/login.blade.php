@@ -79,7 +79,7 @@
             Senha
         </p>
         <p>
-            <input type="password" name="galaxia" placeholder="informe a senha" required="required">
+            <input type="password" name="senha" placeholder="informe a senha" required="required">
         </p>
         <p class="links content">
             <input type="submit" value="Logar" name="login">
